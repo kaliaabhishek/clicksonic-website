@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css">
   <link rel="stylesheet" href="./main.css">
   <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Clicksonic</title>
 </head>
 <body>
   <div class="main-layout">
-    <div class="navbar-layout">
+    <div class="navbar-layout" data-aos="fade-in">
         <div class="logo">
           <img src="./images/logo.svg" alt="Clicksonic">
         </div>
@@ -25,7 +26,7 @@
     </div>
     <div class="contents-layout">
 
-      <div class="hero">
+      <div class="hero" data-aos="fade-down">
         <div class="title">
           <h1>The marketing platform of the future is here</h1>
           <h3 class="muted light">
@@ -41,13 +42,18 @@
         </div>
       </div>
 
-      <div id="how-it-works">
-          <h2>You make the magic happen</h2>
+      <div id="how-it-works" data-aos="fade-in">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+          <h1>You make the magic happen</h1>
           <h3 class="muted light">Follow a series of simple steps to get your ads across the finish line.</h3>
           <br>
           <br>
           <div class="steps-layout">
-            <div class="one">
+            <div class="one" data-aos="fade-up">
               <div class="image">
                 <img src="./images/hiw1.svg" alt="hiw1">
               </div>
@@ -57,7 +63,7 @@
                   with ad messages that are bound 
                   to engage more people</p>
             </div>
-            <div class="two">
+            <div class="two" data-aos="fade-up">
                 <div class="image">
                   <img src="./images/hiw2.svg" alt="hiw1">
                 </div>
@@ -67,7 +73,7 @@
                   with ad messages that are bound 
                   to engage more people</p>
             </div>
-            <div class="three">
+            <div class="three" data-aos="fade-up">
                 <div class="image">
                   <img src="./images/hiw3.svg" alt="hiw1">
                 </div>
@@ -77,7 +83,7 @@
                   with ad messages that are bound 
                   to engage more people</p>
             </div>
-            <div class="four">
+            <div class="four" data-aos="fade-up">
                 <div class="image">
                   <img src="./images/hiw4.svg" alt="hiw1">
                 </div>
@@ -90,12 +96,21 @@
           </div>
       </div>
       <div id="pricing">
-          <h1>The marketing platform of the future is here</h1>
+          <h1>Pricing that works for every marketing goal</h1>
+          <h3 class="muted light">Choose from a set of flexible monthly plans to get started </h3>
+          <br>
+          <div class="pricing-table">
+
+          </div>
       </div>
       <div id="platforms">
           <h1>The marketing platform of the future is here</h1>
       </div>
     </div>
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

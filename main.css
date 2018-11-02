@@ -76,7 +76,7 @@ a.btn-primary {
 
 .contents-layout {
   display: grid;
-  grid-template-rows: 100vh auto auto auto;
+  grid-template-rows: 100vh 100vh 100vh 50vh;
 }
 
 .hero {
@@ -106,8 +106,4 @@ a.btn-primary {
 
 .steps-layout .image {
   height: 200px;
-}
-
-#how-it-works {
-  margin-top: 70px;
 }
