@@ -76,15 +76,38 @@ a.btn-primary {
 
 .contents-layout {
   display: grid;
-  grid-template-rows: 100vh 100vh 100vh 50vh;
+  grid-template-rows: 100vh auto auto auto;
 }
 
 .hero {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 60%;
   margin-top: 10rem;
 }
 
 .hero img {
-  width: 550px;
+  width: 80%;
+}
+
+.hero .title {
+  margin-top: 30px;
+}
+
+.steps-layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  text-align: center;
+}
+
+.steps-layout img {
+  width: 200px;
+}
+
+.steps-layout .image {
+  height: 200px;
+}
+
+#how-it-works {
+  margin-top: 70px;
 }
