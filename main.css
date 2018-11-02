@@ -7,8 +7,11 @@ a {
   text-decoration: none;
 }
 
-html {
+html,
+body {
   scroll-behavior: smooth;
+  min-height: 100%;
+  margin: 0;
 }
 
 .muted {
@@ -76,7 +79,7 @@ a.btn-primary {
 
 .contents-layout {
   display: grid;
-  grid-template-rows: 100vh 100vh 100vh 50vh;
+  grid-template-rows: 100vh 100vh 100vh 50vh auto;
 }
 
 .hero {
@@ -106,4 +109,58 @@ a.btn-primary {
 
 .steps-layout .image {
   height: 200px;
+}
+
+.pricing-table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+
+.pricing-table img {
+  width: 150px;
+}
+
+.price-item-list {
+  display: grid;
+}
+
+span.check {
+  background: greenyellow;
+  width: 10px;
+  border-radius: 100%;
+}
+
+#platforms {
+  text-align: center;
+}
+
+#platforms img {
+  width: 500px;
+}
+
+.footer {
+  background: #e4e4e4;
+  height: 100%;
+  padding: 30px;
+}
+
+.footer .f-contents {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+}
+
+.footer-links {
+  margin-top: -8px;
+}
+
+.footer a {
+  margin-left: 20px;
+}
+
+.copyright {
+  margin-left: 20px;
 }
