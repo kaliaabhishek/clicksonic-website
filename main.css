@@ -75,6 +75,11 @@ a.btn-primary {
   border: 2px #02497e solid;
   border-radius: 5px;
   font-weight: 500;
+  transition: all 0.25s;
+}
+
+a.btn-primary:hover {
+  background: #1b3866;
 }
 
 .contents-layout {
@@ -155,6 +160,7 @@ span.check {
 
 .footer-links {
   margin-top: -8px;
+  align-items: stretch;
 }
 
 .footer a {
@@ -163,4 +169,79 @@ span.check {
 
 .copyright {
   margin-left: 20px;
+}
+
+.plan {
+  background: #f3f3f3;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 1em;
+  margin-bottom: 1em;
+}
+.plan .titleContainer {
+  background-color: #e4e4e4;
+  padding: 1em;
+}
+.plan .titleContainer .title {
+  font-size: 1.45em;
+  text-transform: uppercase;
+  color: #4285f4;
+  font-weight: 700;
+}
+.plan .infoContainer {
+  padding: 1em;
+  color: #2d3b48;
+  box-sizing: border-box;
+}
+.plan .infoContainer .price {
+  font-size: 1.35em;
+  padding: 1em 0;
+  font-weight: 600;
+  margin-top: 0;
+  display: inline-block;
+  width: 80%;
+}
+.plan .infoContainer .price p {
+  font-size: 1.35em;
+  display: inline-block;
+  margin: 0;
+}
+.plan .infoContainer .price span {
+  font-size: 1.0125em;
+  display: inline-block;
+}
+.plan .infoContainer .desc {
+  padding-bottom: 1em;
+  border-bottom: 2px solid #f3f3f3;
+  margin: 0 auto;
+  width: 90%;
+}
+.plan .infoContainer .desc em {
+  font-size: 1em;
+  font-weight: 500;
+}
+.plan .infoContainer .features {
+  font-size: 1em;
+  list-style: none;
+  padding-left: 0;
+}
+.plan .infoContainer .features li {
+  padding: 0.5em;
+}
+.plan .infoContainer .selectPlan {
+  border: 2px solid;
+  padding: 0.75em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.25s;
+  margin: 1em auto;
+  box-sizing: border-box;
+  max-width: 70%;
+  display: block;
+  font-weight: 500;
+}
+.plan .infoContainer .selectPlan:hover {
+  background-color: #4285f4;
+  color: white;
 }
