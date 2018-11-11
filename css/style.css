@@ -31,7 +31,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-sans-serif: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
@@ -56,7 +56,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -421,7 +421,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  font-family: "Rubil",SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 code {
   font-size: 87.5%;
@@ -3552,9 +3552,9 @@ input[type="button"].btn-block {
       color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand {
-  color: #fff; }
+  color: rgb(37, 37, 37); }
   .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: #fff; }
+    color:  rgb(37, 37, 37);; }
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5); }
@@ -4494,7 +4494,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4579,7 +4579,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7268,7 +7268,7 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #dee2e6 !important; } }
 
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Rubik", Arial, sans-serif;
   background: #fff;
   font-size: 16px;
   line-height: 1.8;
@@ -7325,7 +7325,7 @@ h1, h2, h3, h4, h5,
     padding-bottom: .9rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #fff;
+    color: rgb(63, 63, 63);
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover, .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:focus {
@@ -7373,13 +7373,13 @@ h1, h2, h3, h4, h5,
           background: -o-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
           background: -ms-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
           background: linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83b5', endColorstr='#9a51ff', GradientType=1 );
+  
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent; } }
   .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored span {
     border-color: #627bed; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgb(63, 63, 63); }
   .ftco-navbar-light .navbar-toggler {
     border: none;
     color: rgba(255, 255, 255, 0.5) !important;
@@ -7520,15 +7520,7 @@ h1, h2, h3, h4, h5,
     right: -20px; }
   .owl-carousel.home-slider {
     z-index: 0;
-    position: relative;
-    background: #fb83b5;
-    background: -moz-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #fb83b5), color-stop(100%, #9a51ff));
-    background: -webkit-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    background: -o-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    background: -ms-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    background: linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83b5', endColorstr='#9a51ff', GradientType=1 ); }
+    position: relative;}
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
@@ -7548,14 +7540,9 @@ h1, h2, h3, h4, h5,
         content: '';
         opacity: .95;
         z-index: -1;
-        background: #fb83b5;
-        background: -moz-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-        background: -webkit-gradient(left bottom, right top, color-stop(0%, #fb83b5), color-stop(100%, #9a51ff));
-        background: -webkit-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-        background: -o-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-        background: -ms-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-        background: linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83b5', endColorstr='#9a51ff', GradientType=1 ); }
+        
+  background: white;
+ }
       .owl-carousel.home-slider .slider-item .overlay {
         z-index: -1;
         position: absolute;
@@ -7579,7 +7566,7 @@ h1, h2, h3, h4, h5,
               padding-left: 11%; } }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
           font-size: 40px;
-          color: #fff;
+          color: rgb(44, 44, 44);
           line-height: 1.2;
           font-weight: 500; }
           @media (max-width: 991.98px) {
@@ -7589,7 +7576,7 @@ h1, h2, h3, h4, h5,
           font-size: 20px;
           line-height: 1.5;
           font-weight: 300;
-          color: white; }
+          color: rgb(99, 96, 96); }
           .owl-carousel.home-slider .slider-item .slider-text p.sub-p {
             font-weight: 400; }
           .owl-carousel.home-slider .slider-item .slider-text p strong {
@@ -8052,7 +8039,6 @@ h1, h2, h3, h4, h5,
       background: -o-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
       background: -ms-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
       background: linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83b5', endColorstr='#9a51ff', GradientType=1 );
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
@@ -8097,14 +8083,9 @@ h1, h2, h3, h4, h5,
     background-position: center center;
     position: relative;
     padding: 10em 0;
-    background: #fb83b5;
-    background: -moz-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #fb83b5), color-stop(100%, #9a51ff));
-    background: -webkit-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    background: -o-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    background: -ms-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    background: linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83b5', endColorstr='#9a51ff', GradientType=1 ); }
+    
+  background: white; 
+  }
   .ftco-section-parallax .heading-section-white h2 {
     font-weight: 400 !important; }
 
@@ -8455,13 +8436,7 @@ textarea.form-control {
 
 .testimony-section {
   position: relative;
-  background: #56c8fb;
-  background: -moz-linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
-  background: -webkit-gradient(left bottom, right top, color-stop(0%, #56c8fb), color-stop(100%, #627bed));
-  background: -webkit-linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
-  background: -o-linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
-  background: -ms-linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
-  background: linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
+  background: white;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56c8fb', endColorstr='#627bed', GradientType=1 ); }
   .testimony-section .owl-carousel {
     margin: 0; }
@@ -8601,12 +8576,6 @@ textarea.form-control {
       -ms-transition: all 0.3s ease;
       transition: all 0.3s ease;
       background: #12e6ca;
-      background: -moz-linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
-      background: -webkit-gradient(left bottom, right top, color-stop(0%, #12e6ca), color-stop(100%, #8be55d));
-      background: -webkit-linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
-      background: -o-linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
-      background: -ms-linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
-      background: linear-gradient(45deg, #12e6ca 0%, #8be55d 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12e6ca', endColorstr='#8be55d', GradientType=1 );
       border: 1px solid transparent; }
       .ftco-section .nav-pills .nav-link.active:after, .ftco-section .nav-pills .nav-link:hover:after {
@@ -8675,14 +8644,13 @@ textarea.form-control {
     content: '';
     z-index: -1;
     opacity: .9;
-    background: #fb83b5;
-    background: -moz-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #fb83b5), color-stop(100%, #9a51ff));
-    background: -webkit-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    background: -o-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    background: -ms-linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    background: linear-gradient(45deg, #fb83b5 0%, #9a51ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83b5', endColorstr='#9a51ff', GradientType=1 ); }
+    background: #56c8fb;
+    background: -moz-linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #56c8fb), color-stop(100%, #627bed));
+    background: -webkit-linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
+    background: -o-linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
+    background: -ms-linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
+    background: linear-gradient(45deg, #56c8fb 0%, #627bed 100%) }
 
 .ftco-counter {
   padding: 5em 0; }
@@ -9387,3 +9355,12 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.brand-logoos{
+  margin: 0 auto;
+}
+
+.brand-logoos *{
+  margin: 50px;
+  margin-top: 0px;
+}
