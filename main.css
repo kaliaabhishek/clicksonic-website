@@ -172,15 +172,14 @@ span.check {
 }
 
 .plan {
-  background: #f3f3f3;
+  background: white;
   width: 100%;
   box-sizing: border-box;
   text-align: center;
-  margin: 1em;
   margin-bottom: 1em;
 }
 .plan .titleContainer {
-  background-color: #e4e4e4;
+  background-color: white;
   padding: 1em;
 }
 .plan .titleContainer .title {
