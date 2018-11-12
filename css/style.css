@@ -4,6 +4,9 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ @import url('https://fonts.googleapis.com/css?family=Rubik:400,500,600,700');
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9364,3 +9367,65 @@ textarea.form-control {
   margin: 50px;
   margin-top: 0px;
 }
+
+.owl-carousel .owl-item img{
+  width: 80%;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .wrap{
+  padding-left: 7%;
+}
+
+.breadcrumbs {
+
+  margin: 0 auto;
+      margin-bottom: 0px;
+  margin-bottom: 20px;
+
+}
+
+.row.slider-text.align-items-center.justify-content-center {
+  background: #56c8fb;
+  background: -moz-linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #56c8fb), color-stop(100%, #627bed));
+  background: -webkit-linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
+  background: -o-linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
+  background: -ms-linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
+  background: linear-gradient(45deg, #56c8fb 0%, #627bed 100%);
+}
+
+.white-text *{
+  color: white;
+}
+
+.col-md-7.text-center.heading-section.heading-section-white.ftco-animate.fadeInUp.ftco-animated *{
+
+  color: black;
+
+}
+
+.hiw-card{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img-fluid {
+
+  margin: 0 auto;
+
+}
+
+.no-side-scroll{
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+  -ms-touch-action: auto;
+      touch-action: auto;
+}
+
