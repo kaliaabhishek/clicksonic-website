@@ -7335,7 +7335,7 @@ h1, h2, h3, h4, h5,
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover, .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:focus {
-      color: #fff; }
+      color: #007bff }
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
     border: none;
     background: #fff;
@@ -7721,7 +7721,7 @@ h1, h2, h3, h4, h5,
     .btn.btn-primary:hover {
       border: 1px solid #627bed;
       background: transparent;
-      color: #627bed; }
+      color: #ffffff; }
     .btn.btn-primary.btn-outline-primary {
       border: 2px solid #627bed;
       background: transparent;
